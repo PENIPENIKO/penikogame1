@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>数当てゲーム</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #message { margin: 20px 0; }
+        #guess { font-size: 18px; padding: 5px; }
+        #submit { font-size: 18px; padding: 5px 10px; }
+    </style>
+</head>
+<body>
+    <h1>数当てゲーム</h1>
+    <p>1から100までの数を当ててください！</p>
+    <input type="number" id="guess" min="1" max="100">
+    <button id="submit">予想する</button>
+    <p id="message"></p>
+    <script src="game.js"></script>
+</body>
+</html>
